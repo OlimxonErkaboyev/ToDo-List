@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-8 offset-2 mt-3">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="text-center">To Do App</h3>
+          </div>
+          <div class="card-body">
+            <form class="js-form">
+              <div class="input-group">
+                <input class="js-input form-control" type="text" placeholder="Type text..." required/>
+                <button class="btn btn-success">Add</button>
+              </div>
+            </form>
+            <div class="progress my-3">
+              <div class="js-progress-bar progress-bar" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="js-ResultOne col-6"></div>
+              <div class="js-ResultTwo col-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="Js/app.js"></script>
+</body>
+</html>
